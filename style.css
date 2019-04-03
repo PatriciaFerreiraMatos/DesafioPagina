@@ -1,0 +1,122 @@
+*{
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+}
+main, footer{
+	margin: 2px;
+	background-image:linear-gradient(50deg, purple, white)
+}
+.container_header{
+	width:100%;
+	height:100px;
+	margin:5px;
+	background-image:linear-gradient(20deg, purple, pink);
+}
+.container_header_imglogo{
+	width:71px;
+	height:50px;
+	display:inline-flex;
+}
+.container_menu{
+	width:50px;
+	height:10px;
+	display:inline-flex;
+    font-size:25px;
+    margin-left:20%
+}
+.link_container_header{
+	width: 50px;
+	margin:42px;
+	display:inline-flex;
+}
+.container_header_img1, .container_header_img2{
+	width:40px;
+	height:40px;
+	margin-bottom:1%;
+	display:inline-flex; 
+}
+.container_header_img1{
+	margin-left:63%;
+}
+section{
+	width:100%;
+	height:100%;
+	margin:5px;
+	display: inline-block;
+}
+.blockOne_containerTwo_main, .blockTwo_container_main,
+.blockOne_containerOne_main, .blockTwo_containerOne_main{
+	width:550px;
+	height:400px;
+	margin:3px;
+	display:inline-flex;
+}
+.subBlock_one_containerTwoMain, .subBlockTwo_containerTwoMain,
+.subBlockOne_containerOneMain, .subBlockTwo_comtainerOneMain{
+	width:350px;
+	text-align:center;
+	display:inline-block;
+	margin:10px;
+}
+.subBlockOne, .subBlockTwo{
+	margin-left: 15%;
+}
+
+.title_blockOne_containerTwoMain, .title_blocktwo_containerTwoMain,
+.title_blockOne_containerOneMain, .title_blockTwo_containerOneMain{
+	font-size:40px;
+	font-family:'Indie Flower', cursive;
+	font-style:oblique;
+}
+.paragraph_blockOne_containerTwoMain, .paragraph_blockTwo_containerTwoMain,
+.paragraph_blockOne_containerOneMain, .paragraph_blockTwo_containerOneMain{
+	font-size:20px;
+	font-family: 'Dancing Script', cursive;
+}
+.img_block_containerTwoMain, .img_blockTwo_containerTwoMain{
+	width:179px;
+	height:201px;
+	display:inline-block;
+	margin-top:66px;
+    margin-right:21px;
+    border-radius:25%;
+}
+.blockTwo_containerTwo,.blockTwo_containerOne{
+	margin-left:13%;
+}
+.containerFooter{
+	width:100%;
+	height:70%;
+	background-color:blue;
+}
+.title_containerFooter{
+	font-size:50px;
+	font-family: 'Permanent Marker', cursive;
+	font-style: italic;
+	text-shadow: 3px 15px 3px grey;
+	margin-left:30%;
+}
+.img_containerFooter{
+	width:100px;
+	height:100px;
+	margin-left:40%;
+	display: block;
+}
+.blockFooter{
+	width: 25%;
+	height:100%;
+	display: inline-block;
+	margin:40px;
+	margin-top:5%;
+	text-align:center;
+}
+ol{
+	width: 100%;
+	height:100%;
+	margin-top: 13%;
+	font-size:40px;
+	font-style:oblique;
+	color:white;
+	list-style-type: none;
+}
